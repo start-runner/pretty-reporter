@@ -12,8 +12,9 @@
     "start": "3.x.x"
   },
   "dependencies": {
+    "decamelize": "1.x.x",
     "chalk": "1.x.x",
-    "decamelize": "1.x.x"
+    "stack-utils": "0.x.x"
   },
   "devDependencies": {
     "husky": "0.10.x",

@@ -7,6 +7,7 @@ Pretty logger for [Start](https://github.com/start-runner/start).
 * colors
 * decamelized task names
 * short relative paths
+* clean stack traces
 
 ![screenshot](screenshot.png)
 
