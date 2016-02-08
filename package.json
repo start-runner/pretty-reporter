@@ -1,6 +1,6 @@
 {
   "name": "start-pretty-logger",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Pretty logger for Start",
   "keywords": [ "start", "start-logger" ],
   "homepage": "https://github.com/start-runner/pretty-logger",
