@@ -1,6 +1,8 @@
 [![npm](https://img.shields.io/npm/v/start-pretty-logger.svg?style=flat-square)](https://www.npmjs.com/package/start-pretty-logger)
 [![travis](http://img.shields.io/travis/start-runner/pretty-logger.svg?style=flat-square)](https://travis-ci.org/start-runner/pretty-logger)
+[![coverage](https://img.shields.io/codecov/c/github/start-runner/pretty-logger.svg?style=flat-square)](https://codecov.io/github/start-runner/pretty-logger)
 [![deps](https://img.shields.io/gemnasium/start-runner/pretty-logger.svg?style=flat-square)](https://gemnasium.com/start-runner/pretty-logger)
+[![gitter](https://img.shields.io/badge/gitter-join_chat_%E2%86%92-00d06f.svg?style=flat-square)](https://gitter.im/start-runner/start)
 
 Pretty logger for [Start](https://github.com/start-runner/start).
 
@@ -20,7 +22,6 @@ npm i -S start-pretty-logger
 ## Usage
 
 ```js
-// tasks.js
 import start from 'start';
 import logger from 'start-pretty-logger';
 import files from 'start-files';
@@ -39,13 +40,7 @@ export function build() {
 }
 ```
 
-```js
-// package.json
-"scripts": {
-  "task": "babel-node node_modules/.bin/start ./tasks",
-  "build": "npm run task build"
-}
-```
+See [documentation](https://github.com/start-runner/start#readme) for details.
 
 ## Arguments
 
