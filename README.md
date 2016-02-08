@@ -1,3 +1,5 @@
+# start-pretty-logger
+
 [![npm](https://img.shields.io/npm/v/start-pretty-logger.svg?style=flat-square)](https://www.npmjs.com/package/start-pretty-logger)
 [![travis](http://img.shields.io/travis/start-runner/pretty-logger.svg?style=flat-square)](https://travis-ci.org/start-runner/pretty-logger)
 [![coverage](https://img.shields.io/codecov/c/github/start-runner/pretty-logger.svg?style=flat-square)](https://codecov.io/github/start-runner/pretty-logger)
