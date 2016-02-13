@@ -28,6 +28,7 @@ import start from 'start';
 import reporter from 'start-pretty-reporter';
 import files from 'start-files';
 import clean from 'start-clean';
+import read from 'start-read';
 import babel from 'start-babel';
 import write from 'start-write';
 
@@ -36,6 +37,7 @@ export function build() {
         files('build/'),
         clean(),
         files('lib/**/*.js'),
+        read(),
         babel(),
         write('build/')
     );
