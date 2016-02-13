@@ -1,6 +1,6 @@
 {
   "name": "start-pretty-reporter",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Pretty reporter for Start",
   "keywords": [ "start", "start-reporter" ],
   "homepage": "https://github.com/start-runner/pretty-reporter",
