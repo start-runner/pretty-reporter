@@ -5,7 +5,6 @@
 [![windows build](https://img.shields.io/appveyor/ci/start-runner/pretty-reporter.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/pretty-reporter)
 [![coverage](https://img.shields.io/codecov/c/github/start-runner/pretty-reporter.svg?style=flat-square)](https://codecov.io/github/start-runner/pretty-reporter)
 [![deps](https://img.shields.io/gemnasium/start-runner/pretty-reporter.svg?style=flat-square)](https://gemnasium.com/start-runner/pretty-reporter)
-[![gitter](https://img.shields.io/badge/gitter-join_chat_%E2%86%92-00d06f.svg?style=flat-square)](https://gitter.im/start-runner/start)
 
 Pretty reporter for [Start](https://github.com/start-runner/start).
 
@@ -52,4 +51,4 @@ See [documentation](https://github.com/start-runner/start#readme) for details.
 `reporter(options)`
 
 * `options` – reporter options, `{ mute: [] }` by default
-  * `mute` – array of task names to mute any output
+  * `mute` – array of task names to mute any output from
