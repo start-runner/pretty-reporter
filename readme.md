@@ -17,8 +17,10 @@ Pretty reporter for [Start](https://github.com/start-runner/start).
 
 ## Install
 
-```
-npm i -S start-pretty-reporter
+```sh
+npm install --save-dev start-pretty-reporter
+# or
+yarn add --dev start-pretty-reporter
 ```
 
 ## Usage
@@ -32,16 +34,14 @@ import read from 'start-read';
 import babel from 'start-babel';
 import write from 'start-write';
 
-export function build() {
-    return start(reporter())(
-        files('build/'),
-        clean(),
-        files('lib/**/*.js'),
-        read(),
-        babel(),
-        write('build/')
-    );
-}
+export const build = () => start(reporter())(
+  files('build/'),
+  clean(),
+  files('lib/**/*.js'),
+  read(),
+  babel(),
+  write('build/')
+);
 ```
 
 See [documentation](https://github.com/start-runner/start#readme) for details.
